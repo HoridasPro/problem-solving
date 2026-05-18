@@ -67,7 +67,24 @@ Count how many vowels exist in a string.
 Solving :
 
 ```ts id="kq3cvn"
-Input: "typescript";
+const vowels = (v: string): number => {
+  let count = 0;
+  for (let i = 0; i < v.length; i++) {
+    const char = v[i].toLocaleLowerCase();
+    if (
+      char === "a" ||
+      char === "e" ||
+      char === "i" ||
+      char === "o" ||
+      char === "u"
+    ) {
+      count++;
+    }
+  }
+  return count;
+};
+console.log(vowels("typescsript"));
+
 Output: 2;
 ```
 
@@ -77,10 +94,20 @@ Output: 2;
 
 Remove duplicate values from an array and return a new array.
 
-Example:
+Solving :
 
 ```ts id="n5hf7y"
-Input: [1, 2, 2, 3, 4, 4];
+const duplicateNumber = (nums: number[]): number[] => {
+  const result: number[] = [];
+  for (const num of nums) {
+    if (!result.includes(num)) {
+      result.push(num);
+    }
+  }
+  return result;
+};
+console.log(duplicateNumber([1, 2, 2, 3, 4, 4]));
+
 Output: [1, 2, 3, 4];
 ```
 

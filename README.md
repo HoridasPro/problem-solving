@@ -4,7 +4,7 @@
 
 Write a function that takes a string and returns the reversed version of it.
 
-Solving:
+Solving :
 
 ```ts id="ufq0ph"
 const reverseString = (str: string) => {
@@ -12,7 +12,6 @@ const reverseString = (str: string) => {
 };
 console.log(reverseString("Horidas"));
 
-Input: "Horidas";
 Output: "sadiroH";
 ```
 
@@ -24,7 +23,7 @@ Write a function to check whether a string is a palindrome or not.
 
 A palindrome reads the same forward and backward.
 
-Example:
+Solving :
 
 ```ts id="c0zv8y"
 const palindromeString = (str: string) => {
@@ -33,7 +32,6 @@ const palindromeString = (str: string) => {
 };
 console.log(palindromeString("level"));
 
-Input: "level";
 Output: "level";
 ```
 
@@ -43,7 +41,7 @@ Output: "level";
 
 Given an array of numbers, return the largest number.
 
-Example:
+Solving :
 
 ```ts id="w7q8ft"
 const largeNumber = (nums: number[]): number => {
@@ -57,7 +55,6 @@ const largeNumber = (nums: number[]): number => {
 };
 console.log(largeNumber([1, 5, 9, 2]));
 
-Input: [1, 5, 9, 2];
 Output: 9;
 ```
 
@@ -67,7 +64,7 @@ Output: 9;
 
 Count how many vowels exist in a string.
 
-Example:
+Solving :
 
 ```ts id="kq3cvn"
 Input: "typescript";

@@ -4,7 +4,7 @@
 
 Write a function that takes a string and returns the reversed version of it.
 
-Example:
+Solving:
 
 ```ts id="ufq0ph"
 const reverseString = (str: string) => {

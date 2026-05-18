@@ -7,8 +7,8 @@ Write a function that takes a string and returns the reversed version of it.
 Example:
 
 ```ts id="ufq0ph"
-Input: "hello"
-Output: "olleh"
+Input: "hello";
+Output: "olleh";
 ```
 
 ---
@@ -22,8 +22,8 @@ A palindrome reads the same forward and backward.
 Example:
 
 ```ts id="c0zv8y"
-Input: "madam"
-Output: true
+Input: "madam";
+Output: true;
 ```
 
 ---
@@ -35,8 +35,8 @@ Given an array of numbers, return the largest number.
 Example:
 
 ```ts id="w7q8ft"
-Input: [1, 5, 9, 2]
-Output: 9
+Input: [1, 5, 9, 2];
+Output: 9;
 ```
 
 ---
@@ -48,8 +48,8 @@ Count how many vowels exist in a string.
 Example:
 
 ```ts id="kq3cvn"
-Input: "typescript"
-Output: 2
+Input: "typescript";
+Output: 2;
 ```
 
 ---
@@ -61,8 +61,8 @@ Remove duplicate values from an array and return a new array.
 Example:
 
 ```ts id="n5hf7y"
-Input: [1, 2, 2, 3, 4, 4]
-Output: [1, 2, 3, 4]
+Input: [1, 2, 2, 3, 4, 4];
+Output: [1, 2, 3, 4];
 ```
 
 ---
@@ -75,18 +75,16 @@ Given an array of integers and a target number, return the indices of two number
 
 Constraints:
 
-* Each input has exactly one solution.
-* You cannot use the same element twice.
+- Each input has exactly one solution.
+- You cannot use the same element twice.
 
 Example:
 
 ```ts id="n41vjlwm"
-Input:
-nums = [2, 7, 11, 15]
-target = 9
+Input: nums = [2, 7, 11, 15];
+target = 9;
 
-Output:
-[0, 1]
+Output: [0, 1];
 ```
 
 ---
@@ -100,15 +98,9 @@ Anagrams are words made from the same letters.
 Example:
 
 ```ts id="x19fj1"
-Input:
-["eat", "tea", "tan", "ate", "nat", "bat"]
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"];
 
-Output:
-[
-  ["eat", "tea", "ate"],
-  ["tan", "nat"],
-  ["bat"]
-]
+Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]];
 ```
 
 ---
@@ -119,21 +111,21 @@ Determine whether the input string containing brackets is valid.
 
 Rules:
 
-* Every opening bracket must have a closing bracket.
-* Order must be correct.
+- Every opening bracket must have a closing bracket.
+- Order must be correct.
 
 Example:
 
 ```ts id="upyr0u"
-Input: "()[]{}"
-Output: true
+Input: "()[]{}";
+Output: true;
 ```
 
 Example:
 
 ```ts id="vj2czh"
-Input: "(]"
-Output: false
+Input: "(]";
+Output: false;
 ```
 
 ---
@@ -145,8 +137,8 @@ Find the first character in a string that appears only once.
 Example:
 
 ```ts id="8m6l1m"
-Input: "swiss"
-Output: "w"
+Input: "swiss";
+Output: "w";
 ```
 
 ---
@@ -160,8 +152,8 @@ Do not use division.
 Example:
 
 ```ts id="c29w8u"
-Input: [1, 2, 3, 4]
-Output: [24, 12, 8, 6]
+Input: [1, 2, 3, 4];
+Output: [24, 12, 8, 6];
 ```
 
 ---
@@ -175,8 +167,8 @@ Find the length of the longest substring without repeating characters.
 Example:
 
 ```ts id="lrzm8k"
-Input: "abcabcbb"
-Output: 3
+Input: "abcabcbb";
+Output: 3;
 ```
 
 Explanation:
@@ -193,12 +185,12 @@ Design and implement a data structure for Least Recently Used (LRU) cache.
 
 Functions:
 
-* `get(key)`
-* `put(key, value)`
+- `get(key)`
+- `put(key, value)`
 
 Requirements:
 
-* Both operations must work in O(1) time complexity.
+- Both operations must work in O(1) time complexity.
 
 Example:
 
@@ -224,11 +216,18 @@ Given an array of intervals, merge all overlapping intervals.
 Example:
 
 ```ts id="cmys0u"
-Input:
-[[1,3],[2,6],[8,10],[15,18]]
+Input: [
+  [1, 3],
+  [2, 6],
+  [8, 10],
+  [15, 18],
+];
 
-Output:
-[[1,6],[8,10],[15,18]]
+Output: [
+  [1, 6],
+  [8, 10],
+  [15, 18],
+];
 ```
 
 ---
@@ -240,11 +239,9 @@ Given heights of bars, calculate how much rain water can be trapped.
 Example:
 
 ```ts id="r7e4sj"
-Input:
-[0,1,0,2,1,0,1,3,2,1,2,1]
+Input: [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1];
 
-Output:
-6
+Output: 6;
 ```
 
 ---
@@ -256,12 +253,10 @@ Return the `k` most frequent elements from an array.
 Example:
 
 ```ts id="lb8i2n"
-Input:
-nums = [1,1,1,2,2,3]
-k = 2
+Input: nums = [1, 1, 1, 2, 2, 3];
+k = 2;
 
-Output:
-[1,2]
+Output: [1, 2];
 ```
 
 ---
@@ -294,8 +289,8 @@ Check whether an array contains duplicate values.
 Example:
 
 ```ts id="6yr4w5"
-Input: [1, 2, 3, 1]
-Output: true
+Input: [1, 2, 3, 1];
+Output: true;
 ```
 
 ---
@@ -307,11 +302,9 @@ Find the length of the longest consecutive sequence in an array.
 Example:
 
 ```ts id="7pmdby"
-Input:
-[100, 4, 200, 1, 3, 2]
+Input: [100, 4, 200, 1, 3, 2];
 
-Output:
-4
+Output: 4;
 ```
 
 Explanation:
@@ -329,12 +322,10 @@ Find total number of continuous subarrays whose sum equals `k`.
 Example:
 
 ```ts id="ytr3cz"
-Input:
-nums = [1,1,1]
-k = 2
+Input: nums = [1, 1, 1];
+k = 2;
 
-Output:
-2
+Output: 2;
 ```
 
 ---
@@ -346,133 +337,8 @@ Find the minimum substring in `s` that contains all characters of `t`.
 Example:
 
 ```ts id="2rmtpu"
-Input:
-s = "ADOBECODEBANC"
-t = "ABC"
+Input: s = "ADOBECODEBANC";
+t = "ABC";
 
-Output:
-"BANC"
+Output: "BANC";
 ```
-
----
-
-# TypeScript-Specific Interview Questions
-
-## 21. Difference Between Type and Interface
-
-Explain:
-
-* When to use `type`
-* When to use `interface`
-* Extend behavior
-* Use cases
-
----
-
-## 22. Generics in TypeScript
-
-Create reusable functions/classes using generics.
-
-Example:
-
-```ts id="j1fl7g"
-function identity<T>(value: T): T
-```
-
-Explain:
-
-* Why generics are useful
-* Type safety benefits
-
----
-
-## 23. Explain `unknown` vs `any`
-
-Questions:
-
-* What is the difference?
-* Which one is safer?
-* When should you use `unknown`?
-
----
-
-## 24. Utility Types
-
-Explain:
-
-* `Partial<T>`
-* `Pick<T>`
-* `Omit<T>`
-* `Readonly<T>`
-
-Give real-world examples.
-
----
-
-## 25. Type Narrowing
-
-Explain how TypeScript narrows types using:
-
-* `typeof`
-* `instanceof`
-* custom type guards
-
-Example:
-
-```ts id="3hnjlwm"
-if (typeof value === "string")
-```
-
----
-
-# Most Asked DSA Topics in Interviews
-
-## Arrays
-
-* Two Sum
-* Kadane Algorithm
-* Merge Intervals
-
-## Strings
-
-* Longest Substring
-* Palindrome
-* Anagram
-
-## Hash Table
-
-* Frequency Counter
-* Group Anagrams
-* Top K Frequent
-
-## Stack
-
-* Valid Parentheses
-* Min Stack
-
-## Queue
-
-* Sliding Window Maximum
-
-## Linked List
-
-* Reverse Linked List
-* Detect Cycle
-
-## Trees
-
-* DFS
-* BFS
-* Binary Tree Traversal
-
-## Graph
-
-* BFS
-* DFS
-* Dijkstra
-
-## Dynamic Programming
-
-* Fibonacci
-* Coin Change
-* Longest Increasing Subsequence

@@ -12,8 +12,8 @@ const reverseString = (str: string) => {
 };
 console.log(reverseString("Horidas"));
 
-Input: "hello";
-Output: "olleh";
+Input: "Horidas";
+Output: "sadiroH";
 ```
 
 ---
@@ -27,8 +27,14 @@ A palindrome reads the same forward and backward.
 Example:
 
 ```ts id="c0zv8y"
-Input: "madam";
-Output: true;
+const palindromeString = (str: string) => {
+  const palindrome = str.split("").reverse().join("");
+  return palindrome;
+};
+console.log(palindromeString("level"));
+
+Input: "level";
+Output: "level";
 ```
 
 ---
@@ -40,6 +46,17 @@ Given an array of numbers, return the largest number.
 Example:
 
 ```ts id="w7q8ft"
+const largeNumber = (nums: number[]): number => {
+  let maxNum = nums[0];
+  for (const num of nums) {
+    if (num > maxNum) {
+      maxNum = num;
+    }
+  }
+  return maxNum;
+};
+console.log(largeNumber([1, 5, 9, 2]));
+
 Input: [1, 5, 9, 2];
 Output: 9;
 ```

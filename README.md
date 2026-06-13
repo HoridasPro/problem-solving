@@ -127,7 +127,6 @@ Constraints:
 Solving :
 
 ```ts id="n41vjlwm"
-
 const twoNumberSum = (arr: number[], target: number) => {
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
@@ -154,7 +153,18 @@ Anagrams are words made from the same letters.
 Example:
 
 ```ts id="x19fj1"
-Input: ["eat", "tea", "tan", "ate", "nat", "bat"];
+const anagramString = (strs: string[]) => {
+  const map = new Map();
+  for (let str of strs) {
+    const key = str.split("").sort().join("");
+    if (!map.has(key)) {
+      map.set(key, []);
+    }
+    map.get(key).push(str);
+  }
+  return Array.from(map.values());
+};
+console.log(anagramString(["eat", "tea", "tan", "ate", "nat", "bat"]));
 
 Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]];
 ```

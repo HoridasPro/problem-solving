@@ -1,7 +1,6 @@
 // Given an array of strings, group all anagrams together.
 
 // Anagrams are words made from the same letters.
-
 const anagramString = (strs: string[]) => {
   const map = new Map();
   for (let str of strs) {
